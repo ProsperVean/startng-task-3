@@ -1,0 +1,106 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #1B1C1F;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    padding: 16px 16px;
+    color: #EBE1DF;
+    font-family: Corben;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #313235;
+    color: #EBE1DF;
+}
+
+body {
+    background-color: #EBE1DF;
+    font-family: Roboto-Slab;
+}
+
+a {
+    color: #7a93ba;
+}
+
+div {
+    margin-left: 350px;
+    margin-right: 50px;
+}
+
+form {
+    margin-left: 350px;
+    margin-right: 50px;
+}
+
+#about {
+    padding-top: 50px;
+}
+
+h1 {
+    font-family: Corben;
+    text-align: right;
+}
+
+h2 {
+    font-family: Corben;
+    text-align: right;
+    margin-top: 30px;
+}
+
+h4 {
+    font-family: Corben;
+    text-align: right;
+}
+
+h5 {
+    margin-top: 30px; 
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #EBE1DF, #1B1C1F, #EBE1DF);
+    background-image: -moz-linear-gradient(left, #EBE1DF, #1B1C1F, #EBE1DF);
+    background-image: -ms-linear-gradient(left, #EBE1DF, #1B1C1F, #EBE1DF);
+    background-image: -o-linear-gradient(left, #EBE1DF, #1B1C1F, #EBE1DF);
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: right;
+}
+
+.fa-twitter {
+    background: #1B1C1F;
+}
+
+.fa-facebook {
+    background: #1B1C1F;
+}
+
+.fa-github {
+    background: #1B1C1F;
+}
+
+.fa-instagram {
+    background: #1B1C1F;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
